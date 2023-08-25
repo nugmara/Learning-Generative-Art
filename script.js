@@ -5,9 +5,9 @@ canvas.height = window.innerHeight;
 console.log(ctx)
 
 const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-gradient.addColorStop(0, "#90f1ef");
-gradient.addColorStop(0.5, "#ffd6e0");
-gradient.addColorStop(1, "#ffef9f")
+gradient.addColorStop(0, "#363636");
+gradient.addColorStop(0.5, "#e7133f");
+gradient.addColorStop(1, "#ff83a5")
 ctx.fillStyle = gradient;
 
 let atoms = [];
