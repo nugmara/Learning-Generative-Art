@@ -4,9 +4,19 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 
-canvas.addEventListener("mousemove", (e) => {
-    ctx.beginPath()
-    ctx.rect(e.x, e.y, 10, 10)
-    ctx.stroke()
-    console.log(e)
-})
+// canvas.addEventListener("mousemove", (e) => {
+//     ctx.beginPath()
+//     ctx.rect(e.x, e.y, 10, 10)
+//     ctx.stroke()
+// })
+
+const degToRad = (deg) => {
+    return deg / 180 * Math.PI
+}
+
+ctx.beginPath()
+ctx.arc(100, 100, 50, 0, degToRad(360))
+ctx.stroke()
+
+
+
