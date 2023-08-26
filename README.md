@@ -1,10 +1,11 @@
 # Learning-Generative-Art
 
-![Parabolic Movement](./images/parabolic-movement.gif) <!-- Parabolic Movement GIF -->
+<img src="./images/parabolic-movement.gif" alt="Parabolic Movement" width="400px"> <!-- Adjust width as needed -->
    
 * * *
 
-![Stars Effect](./images/stars.gif) <!-- Stars Effect GIF -->
+<img src="./images/stars.gif" alt="Stars Effect" width="300px"> <!-- Adjust width as needed -->
+
 
 
 # Atom Animation Canvas
