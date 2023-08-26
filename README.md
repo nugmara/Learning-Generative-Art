@@ -1,6 +1,6 @@
 # Learning-Generative-Art
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="flex; gap: 20px">
     <img src="./images/parabolic-movement.gif" alt="parabolic-movement" width="300px"/>
     <img src="./images/stars.gif" alt="stars-effect" width="300px"/>
 
